@@ -37,6 +37,35 @@
 
 
 
+-- Resolver Built-In
+
+--█▄▄▄▄ ▄███▄      ▄   ▄███▄      ▄     ▄▀  ▄███▄   
+--█  ▄▀ █▀   ▀      █  █▀   ▀      █  ▄▀    █▀   ▀  
+--█▀▀▌  ██▄▄   █     █ ██▄▄    ██   █ █ ▀▄  ██▄▄    
+--█  █  █▄   ▄▀ █    █ █▄   ▄▀ █ █  █ █   █ █▄   ▄▀ 
+--  █   ▀███▀    █  █  ▀███▀   █  █ █  ███  ▀███▀   
+-- ▀              █▐           █   ██               
+                ▐                                 
+
+                                                                 
+
+
+
+                                       
+
+
+
+
+
+
+
+
+
+local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/ui-libraries/main/dxhooknotify/src.lua", true))()
+l:Notify("Revenge","Thanks For Buying owifo#0001",10)
+
+
+
 local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/T0xicJacob/fgn4537utgn435e/main/Renmifdmsfdsfrwe"))()
 Aiming.TeamCheck(false)
 
@@ -49,11 +78,15 @@ local LocalPlayer = Players.LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
 local CurrentCamera = Workspace.CurrentCamera
 
-local DaHoodSettings = {
+local RevengeSettings = {
     SilentAim = true,
     AimLock = false,
     Prediction = 0.14,
     AimLockKeybind = Enum.KeyCode.E
+    HitChance = 100
+    FOV = 9.4,
+    ShowFOV = false,
+    VisibleCheck = true,
 }
 getgenv().DaHoodSettings = DaHoodSettings
 
