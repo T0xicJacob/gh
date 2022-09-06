@@ -52,7 +52,7 @@ l:Notify("Revenge","Beta - v0.1",10)
 
 
 
-local RevengeSetts = loadstring(game:HttpGet("https://raw.githubusercontent.com/T0xicJacob/fgn4537utgn435e/main/Renmifdmsfdsfrwe"))()
+local RevengeSetts = loadstring(game:HttpGet("https://raw.githubusercontent.com/T0xicJacob/fgn4537utgn435e/main/RevengeSetts"))()
 RevengeSetts.TeamCheck(false)
 
 local Workspace = game:GetService("Workspace")
