@@ -1,43 +1,4 @@
---█▄▄▄▄ ▄███▄      ▄   ▄███▄      ▄     ▄▀  ▄███▄   
---█  ▄▀ █▀   ▀      █  █▀   ▀      █  ▄▀    █▀   ▀  
---█▀▀▌  ██▄▄   █     █ ██▄▄    ██   █ █ ▀▄  ██▄▄    
---█  █  █▄   ▄▀ █    █ █▄   ▄▀ █ █  █ █   █ █▄   ▄▀ 
---  █   ▀███▀    █  █  ▀███▀   █  █ █  ███  ▀███▀   
--- ▀              █▐           █   ██               
-                ▐                                 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
--- Resolver Built-In
+--Resolver Built-In
 
 --█▄▄▄▄ ▄███▄      ▄   ▄███▄      ▄     ▄▀  ▄███▄   
 --█  ▄▀ █▀   ▀      █  █▀   ▀      █  ▄▀    █▀   ▀  
@@ -46,6 +7,33 @@
 --  █   ▀███▀    █  █  ▀███▀   █  █ █  ███  ▀███▀   
 -- ▀              █▐           █   ██               
                 ▐                                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                                                                  
 
@@ -61,8 +49,8 @@
 
 
 
-local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/ui-libraries/main/dxhooknotify/src.lua", true))()
-l:Notify("Revenge","Thanks For Buying owifo#0001",10)
+local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/T0xicJacob/Revenge-Notification/main/Revenge%20Ball", true))()
+l:Notify("Revenge","Beta - v0.1",10)
 
 
 
@@ -81,14 +69,14 @@ local CurrentCamera = Workspace.CurrentCamera
 local RevengeSettings = {
     SilentAim = true,
     AimLock = false,
-    Prediction = 0.14,
+    Prediction = 0.13843782,
     AimLockKeybind = Enum.KeyCode.E
     HitChance = 100
     FOV = 9.4,
     ShowFOV = false,
     VisibleCheck = true,
 }
-getgenv().DaHoodSettings = DaHoodSettings
+getgenv().RevengeSettings = RevengeSettings
 
 function Aiming.Check()
     if not (Aiming.Enabled == true and Aiming.Selected ~= LocalPlayer and Aiming.SelectedPart ~= nil) then
