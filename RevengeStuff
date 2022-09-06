@@ -7,7 +7,11 @@
                 ▐                                 
 
 
-
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Revenge", -- Required
+	Text = "Thanks For Using <3", -- Required
+	Icon = "rbxassetid://10835467312" -- Optional
+})
 
 
 
@@ -47,8 +51,7 @@
 
 
 
-local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/T0xicJacob/Revenge-Notification/main/Revenge%20Ball", true))()
-l:Notify("Revenge","Beta - v0.1",10)
+
 
 
 
