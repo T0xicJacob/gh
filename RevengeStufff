@@ -7,11 +7,6 @@
                 ▐                                 
 
 
-game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Revenge", -- Required
-	Text = "Thanks For Using <3", -- Required
-	Icon = "rbxassetid://10835467312" -- Optional
-})
 
 
 
